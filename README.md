@@ -1,5 +1,5 @@
 # navigation
-Ada yg mau bantu research navigation jetpack kah? Pake simple project aja
+Purpose of this app 
 1. Behaviour navigation jetpact
 2. Nested navigation graph
 3. Handling passing data between fragment
