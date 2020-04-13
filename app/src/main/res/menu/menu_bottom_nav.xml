@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_selector"
+        android:title="@string/menu_home" />
+    <item
+        android:id="@+id/order"
+        android:icon="@drawable/ic_my_order_selector"
+        android:title="@string/menu_my_order" />
+    <item
+        android:id="@+id/instalment"
+        android:icon="@drawable/ic_payment_selector"
+        android:title="@string/menu_installment" />
+
+    <item
+        android:id="@+id/account"
+        android:icon="@drawable/ic_user_selector"
+        android:title="@string/menu_account" />
+
+</menu>
