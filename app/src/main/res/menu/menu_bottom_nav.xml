@@ -10,5 +10,15 @@
         android:contentDescription="@string/cd_order"
         android:icon="@drawable/ic_my_order"
         android:title="@string/menu_my_order" />
+    <item
+        android:id="@+id/loan"
+        android:contentDescription="@string/cd_installment"
+        android:icon="@drawable/ic_payment"
+        android:title="@string/menu_installment" />
+    <item
+        android:id="@+id/account"
+        android:contentDescription="@string/cd_account"
+        android:icon="@drawable/ic_user_newest"
+        android:title="@string/menu_account" />
 
 </menu>

@@ -1,7 +1,6 @@
 package com.don.navigation
 
 
-
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.LiveData
@@ -39,7 +38,8 @@ class MainActivity : AppCompatActivity() {
     private fun setupBottomNavigationBar() {
         val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottom_nav)
 
-        val navGraphIds = listOf(R.navigation.home,R.navigation.order)
+        val navGraphIds =
+            listOf(R.navigation.home, R.navigation.order, R.navigation.loan, R.navigation.account)
 
         // Setup the bottom navigation view with a list of navigation graphs
         val controller = bottomNavigationView.setupWithNavController(
