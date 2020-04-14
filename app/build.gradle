@@ -1,5 +1,6 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion 29
@@ -54,4 +55,5 @@ dependencies {
     implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
 
 
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 }
