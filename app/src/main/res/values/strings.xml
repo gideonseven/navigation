@@ -8,4 +8,9 @@
     <string name="menu_account">Akun</string>
     <string name="menu_installment">Cicilan</string>
     <string name="menu_my_order">Pesanan</string>
+    <string name="cd_home">Beranda</string>
+    <string name="cd_facilities">Fasilitas</string>
+    <string name="cd_account">Akun</string>
+    <string name="cd_installment">Cicilan</string>
+    <string name="cd_order">Pesanan</string>
 </resources>
