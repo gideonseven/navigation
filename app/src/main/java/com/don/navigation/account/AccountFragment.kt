@@ -28,10 +28,7 @@ class AccountFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         btnDetailAccount.setOnClickListener {
-            val action =
-                AccountFragmentDirections.actionAccountScreenToDetailFragment(etName.text.toString())
 
-            findNavController().navigate(action)
         }
     }
 
