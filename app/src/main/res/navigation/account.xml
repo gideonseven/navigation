@@ -9,5 +9,20 @@
         android:id="@+id/accountScreen"
         android:name="com.don.navigation.account.AccountFragment"
         android:label="Account"
-        tools:layout="@layout/fragment_account" />
+        tools:layout="@layout/fragment_account" >
+        <action
+            android:id="@+id/action_accountScreen_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.don.navigation.account.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" >
+        <argument
+            android:name="name"
+            app:argType="string" />
+    </fragment>
+
+
 </navigation>
