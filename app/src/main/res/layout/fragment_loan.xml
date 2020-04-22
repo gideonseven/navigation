@@ -6,7 +6,19 @@
     android:orientation="vertical"
     tools:context=".loan.LoanFragment">
 
-    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/tvLoan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/etLoan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
     <Button
         android:id="@+id/btnLoan"
         android:layout_width="wrap_content"

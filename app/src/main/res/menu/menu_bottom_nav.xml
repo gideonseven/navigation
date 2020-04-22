@@ -1,16 +1,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/homeScreen"
-        android:contentDescription="@string/cd_home"
-        android:icon="@drawable/ic_home"
-        android:title="@string/menu_home" />
-    <item
-        android:id="@+id/orderScreen"
-        android:contentDescription="@string/cd_order"
-        android:icon="@drawable/ic_my_order"
-        android:title="@string/menu_my_order" />
-    <item
         android:id="@+id/loanScreen"
         android:contentDescription="@string/cd_installment"
         android:icon="@drawable/ic_payment"
