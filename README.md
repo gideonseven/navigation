@@ -6,5 +6,5 @@ Purpose of this app
 4. Handling backpress (with or without bundle)
 5. Handling open new activity (with or without bundle)
 
-![Farmers Market Finder Demo](gif/demo.gif)
+![Demo Gif File](gif/demo.gif)
 
